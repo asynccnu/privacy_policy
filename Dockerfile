@@ -1,7 +1,7 @@
 FROM python:3.5
 MAINTAINER muxistudio <muxistudio@qq.com>
 
-ENV DEPLOY_PATH /ccnubox_officalsite
+ENV DEPLOY_PATH /ccnubox_privacy
 
 RUN mkdir -p $DEPLOY_PATH
 WORKDIR $DEPLOY_PATH
